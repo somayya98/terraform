@@ -4,7 +4,7 @@ data "aws_ami" "joindevops" {
     
     filter {
         name   = "name"
-        values = ["RHEL-9-DevOps-Practice"]
+        values = ["Redhat-9-DevOps-Practice"]
     }
 
     filter {
@@ -23,7 +23,7 @@ output "ami_id" {
 }
 
 data "aws_instance" "mongodb" {
-    instance_id = "i-0ed8b0d43b45e80a7"
+    instance_id = "i-0256d33f9b08aaf77"
 }
 
 output "mongodb_info" {

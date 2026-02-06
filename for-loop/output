@@ -1,6 +1,6 @@
  {
   "mongodb" = {
-    "ami" = "ami-09c813fb71547fc4f"
+    "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:930832106480:instance/i-069976dbd7d208e89"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1c"
