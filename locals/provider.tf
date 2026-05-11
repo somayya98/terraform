@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "somayya-remote-state"
+    bucket = "somayya-remote-state-01"
     key    = "locals-demo"
     region = "us-east-1"
     use_lockfile = true
